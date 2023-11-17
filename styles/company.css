@@ -1,0 +1,15 @@
+body {
+    margin: 20px;
+}
+
+header {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    gap: 20px;
+    margin-block-end: 20px;
+}
+
+header .stock-img {
+    height: 100%;
+}
