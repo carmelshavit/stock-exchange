@@ -21,3 +21,15 @@ export async function getApiData(symbol, type) {
     }
 }
 
+
+// export const endpoints = {
+//     stockData: `https://stock-exchange-dot-full-stack-course-services.ew.r.appspot.com/api/v3/company/profile/${symbol}`,
+//     stockHistory: `https://stock-exchange-dot-full-stack-course-services.ew.r.appspot.com/api/v3/historical-price-full/${symbol}?serietype=line`,
+//     stocksList: `https://stock-exchange-dot-full-stack-course-services.ew.r.appspot.com/api/v3/search?query=${symbol}&limit=10&exchange=NASDAQ`
+// }
+
+
+// export const getEndpointByType = (type) => {
+//     return endpoints[type]
+
+// }

@@ -1,8 +1,42 @@
-/* .container {
-    background-color: gray;
+.main-container {
     width: 700px;
-} */
+}
 
-li {
-    List-style-type: none
+.search-btn {
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: cadetblue;
+    cursor: pointer;
+}
+
+
+.search-bar {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.search-input::placeholder {
+    padding-inline-start: 15px;
+}
+
+.stocks-list {
+
+    padding: 0;
+    margin-block-start: 5px;
+
+}
+
+.main-container ul li a {
+    text-decoration: none;
+    color: gray;
+
+
+}
+
+.stock-list-item {
+    border-block-end: 1px solid gray;
+    list-style: none;
+    padding-block: 5px;
 }
