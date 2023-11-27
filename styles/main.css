@@ -1,6 +1,10 @@
+body {
+    margin-block-start: 0;
+}
+
 .main-container {
     width: 700px;
-    background-color: black;
+    background-color: white;
 }
 
 .search-btn {
@@ -45,4 +49,51 @@
     height: 24px;
     width: 24px;
 
+}
+
+header ul li span {
+    color: green;
+}
+
+.marquee {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: 16px;
+
+
+}
+
+.marquee-content-1,
+.marquee-content-2 {
+    margin: 0;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+    min-width: 100%;
+    animation: scroll 600s linear infinite;
+    list-style-type: none;
+}
+
+
+
+.marquee:hover .marquee-content-1 {
+    animation-play-state: paused;
+}
+
+.marquee:hover .marquee-content-2 {
+    animation-play-state: paused;
+
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(-100% - 16px));
+    }
 }

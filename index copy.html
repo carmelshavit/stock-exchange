@@ -16,17 +16,32 @@
     </header>
     <div class="main-container">
         <h2 class="mb-4 text-center display-4">Search Nasdaq Stocks</h2>
-        <div class="search-bar">
+        <div id="form"></div>
+        <div id="results"></div>
+        <!-- <div class="search-bar">
             <input class="search-input" type="text" name="inputbox" value="" placeholder="Search stocks">
             <button class="search-btn">Search</button>
-        </div>
+        </div> -->
         <!-- <ul class="stocks-list">
 
         </ul> -->
 
     </div>
     <script type="module" src="./js/main.js"></script>
-
+    <script type="module" src="./js/search-results.js"></script>
+    <script type="module" src="./js/search-form.js"></script>
+    <script type="module" src="./js/marquee.js"></script>
+    <!-- <script>
+        (async function () {
+            const marquee = new Marquee(document.getElementById('.marquee'))
+            marquee.render();
+            const form = new SearchForm(document.getElementById('.form'))
+            const results = new SearchResults(document.getElementById(".results"))
+            form.onSearch((companies) => {
+                results.renderResults(companies)
+            })
+        })
+    </script> -->
 
 </body>
 

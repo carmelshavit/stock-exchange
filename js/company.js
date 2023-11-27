@@ -1,4 +1,4 @@
-import { getApiData } from './api.service.js'
+import { getApiData,  } from './api.service.js'
 
 const symbol = getQueryParams()
 renderCompany()

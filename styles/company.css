@@ -13,3 +13,12 @@ header {
 header .stock-img {
     height: 100%;
 }
+
+.stock-name {
+    color: black;
+}
+
+.stock-link {
+    text-decoration: none;
+
+}
